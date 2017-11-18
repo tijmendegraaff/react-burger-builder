@@ -1,0 +1,15 @@
+{
+  "extends": "react-app",
+  "rules": {
+    "indent": ["error", 4],
+    "react/jsx-indent": ["error", 4],
+    "react/jsx-indent-props": ["error", 4],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/forbid-prop-types": "off",
+    "func-style": ["error", "expression"],
+    "semi": ["error", "never"],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "jsx-a11y/no-static-element-interactions": 0,
+    "class-methods-use-this": 0
+  }
+}
